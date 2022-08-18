@@ -1,0 +1,40 @@
+
+body{
+    background: rgb(208, 212, 212);
+}
+form{
+    background: #93b9b9;
+        background: #466368;
+        background: linear-gradient(to right bottom, rgb(208, 212, 212);, #293f50);
+      
+    margin: 40px;
+}
+input [type=submit]{
+    width: 20px;
+    align-content: center;
+  }
+
+input {
+    display: flex;
+    width: 100%;
+    padding: 12px 20px; 
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .submit{
+    width: 100px;
+    background-color: rgb(88, 166, 192);
+  }
+  textarea{
+    margin:10px 7px;
+    display: block;
+    width: 415px;
+    height: 100px;
+  }
+  .butto{
+    width: auto;
+    background-color: lightblue;
+    color: white;
+  }

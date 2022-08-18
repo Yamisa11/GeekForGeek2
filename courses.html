@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="course.css">
+    <title>Sign up for a course</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+
+            <label>
+                Name: <input type="text" name="name" placeholder="First Name" required>
+            </label>
+            <label>
+                Last Name:<input type="text" name="surname" placeholder="Last Name" required>
+            </label>
+            <label for="email">
+                Email: <input type="email" id="email" placeholder="email address" required>
+            </label>
+            <div class="container">
+            <label>
+                <input type="radio" name="course" value="Java" > Java
+              </label> 
+              <label>
+                <input type="radio" name="course" value="C#"> c#
+              </label>
+              <label>
+                <input type="radio" name="course" value="HTML and CSS"> HTML and CSS
+              </label>
+            </div>
+              <br>
+              <label>
+                Please tell us about yourself and the reason for joining the program
+                <textarea name="reason"></textarea>
+              </label>
+            
+        </fieldset>
+        <div class="submit">
+        <label>
+        <input type="submit" name=".submit" value="Sign up"></label>
+        </div>
+    </form>
+</body>
+</html>
